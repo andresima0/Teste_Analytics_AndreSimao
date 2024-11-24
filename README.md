@@ -27,7 +27,7 @@ A partir da importação do arquivo dados_vendas.csv e da execução de prompts 
 
 As inconsistências foram corrigidas e um novo arquivo chamado data_clean.csv foi gerado, contendo 125 registros corretos para manipulação. O arquivo data_clean.csv pode ser visualizado em Link2.
 
-A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto (disponível em Link3), e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
+A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto (arquivo agrupado.csv, disponível em Link3), e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
 
 Produto com o maior valor de total de vendas
 
@@ -46,7 +46,25 @@ Os detalhes desses processos no Notebook podem ser visualizados em Link4.
 
 ### 2 Análise Exploratória de Dados de Vendas
 
+Os arquivos data_clean.csv e agrupado.csv foram exportados e convertidos em um único arquivo chamado vendas.xlsx (disponível em Link5), para ser feita a análise exploratória e visualização dos dados através da plataforma Power BI.
+
+Foi criado uma Visualização Power Bi chamada 2_exploracao_dados_vendas, que por usa vez contérm um dashboard interativo, formado por:
+* Grafico de linhas, com:
+  * Linha que faz a relação do valor das vendas (em milhares de R$) em cada mês dentro do período de 1 ano;
+  * Linha que faz a relação do percentual das vendas (em %) em cada mês dentro do período de 1 ano;
+* Gráfico circular, que relaciona o valor das vendas (em R$ e %) por categoria de produto;
+* Gráfico circular, que relaciona a quantidade das vendas (em R$ e %) por categoria de produto;
+* Card com o valor total das vendas dentro de todo o período analisado (1ano);
+* Tabela com a relação dos cinco produtos mais vendidos e as respectivas quantidades.
+
+A imagem abaixo apresenta a descrição feita dos gráficos:
+
 ![2_exploracao_dados_vendas](https://github.com/user-attachments/assets/ff24fe56-27a2-4479-ab72-64025d7b87d1)
+
+A partir da análise das informações do dashboard, pôde-se concluir que:
+* Os meses em que houve maiores valores de vendas foram novembro (35%) e janeiro (17%). Isso reflete possíveis promoções sazonais que ocorreram, como Black Friday e queima de estoque de início de ano.
+* Os produtos que obtiveram maior valor de venda foram aqueles que pertencem as categorias Notebooks(42%) e Acessórios (19%). Porém isso pode não significar que são os produtos que geram maior margem de lucro, visto que apresentam pouca saída em quantidade (respectivamente 12% e 10%). Uma análise financeira mais minuciosa deve ser realizada;
+* Os produtos mais vendidos foram os que pertencem a categoria acessórios (44% das vendas), sendo o Cabo HDMI 4K 2m o produto mais vendido, com 27 vendas. Porém isso não significa que gera maior margem de lucro, tendo em vista ser um dos produtos mais baratos da loja. Se faz necessário uma análise financeira mais detalhada.
 
 ## Parte 2: SQL
 
