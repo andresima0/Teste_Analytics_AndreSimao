@@ -14,7 +14,7 @@ A base inicial de dados consiste de um dataset chamado dados_vendas.csv, que por
 *Quantidade: referente a quantidade de produtos de um mesmo tipo, atrelados a uma mesma compra;
 * Preco: valor do produto, em reais (R$).
 
-O arquivo dados_vendas.csv pode ser visualizado em detalhes em link1.
+O arquivo dados_vendas.csv pode ser visualizado em detalhes em [link1](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/dados_vendas.csv).
 
 ## Parte 1: Programação em Python
 
@@ -25,9 +25,9 @@ A partir da importação do arquivo dados_vendas.csv e da execução de prompts 
 * 14 Registros duplicados;
 * 0 registros de tipagem incorreta;
 
-As inconsistências foram corrigidas e um novo arquivo chamado data_clean.csv foi gerado, contendo 125 registros corretos para manipulação. O arquivo data_clean.csv pode ser visualizado em Link2.
+As inconsistências foram corrigidas e um novo arquivo chamado data_clean.csv foi gerado, contendo 125 registros corretos para manipulação. O arquivo data_clean.csv pode ser visualizado em [Link2](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/data_clean.csv).
 
-A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto (arquivo agrupado.csv, disponível em Link3), e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
+A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto (arquivo agrupado.csv, disponível em [Link3](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/agrupado.csv)), e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
 
 Produto com o maior valor de total de vendas
 
