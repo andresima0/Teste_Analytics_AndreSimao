@@ -42,11 +42,11 @@ Produto mais vendido:
 |------------------|------------|
 | Cabo HDMI 4K 2m  | 27         |
 
-Os detalhes desses processos no Notebook podem ser visualizados em Link4.
+Os detalhes desses processos no Notebook podem ser visualizados em [Link4](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/1_limpeza_dados_vendas.ipynb).
 
 ### 2 Análise Exploratória de Dados de Vendas
 
-Os arquivos data_clean.csv e agrupado.csv foram exportados e convertidos em um único arquivo chamado vendas.xlsx (disponível em Link5), para ser feita a análise exploratória e visualização dos dados através da plataforma Power BI.
+Os arquivos data_clean.csv e agrupado.csv foram exportados e convertidos em um único arquivo chamado vendas.xlsx (disponível em [Link5](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/vendas.xlsx)), para ser feita a análise exploratória e visualização dos dados através da plataforma Power BI ([Link6](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/2_exploracao_dados_vendas.pbix)).
 
 Foi criado uma Visualização Power Bi chamada 2_exploracao_dados_vendas, que por usa vez contérm um dashboard interativo, formado por:
 * Grafico de linhas, com:
