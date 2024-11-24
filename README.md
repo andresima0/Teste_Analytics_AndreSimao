@@ -27,9 +27,22 @@ A partir da importação do arquivo dados_vendas.csv e da execução de prompts 
 
 As inconsistências foram corrigidas e um novo arquivo chamado data_clean.csv foi gerado, contendo 125 registros corretos para manipulação. O arquivo data_clean.csv pode ser visualizado em Link2.
 
-A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto, e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
+A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto (disponível em Link3), e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
 
-Os detalhes desses processos no Notebook podem ser visualizados em Link3.
+Produto com o maior valor de total de vendas
+
+| Produto       | Notebook Dell Inspiron |
+|---------------|------------------------|
+| Quantidade    | 6                      |
+| Preço         | 3.500,00               |
+| Total Vendas  | 21.000,00              |
+
+Produto mais vendido: 
+| Produto          | Quantidade |
+|------------------|------------|
+| Cabo HDMI 4K 2m  | 27         |
+
+Os detalhes desses processos no Notebook podem ser visualizados em Link4.
 
 ### 2 Análise Exploratória de Dados de Vendas
 
