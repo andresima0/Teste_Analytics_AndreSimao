@@ -1,0 +1,161 @@
+ID,Data,Produto,Categoria,Quantidade,Preco
+1,03/01/2023,Placa de Vídeo RTX 4090,Componentes,1,1500
+2,04/01/2023,Mouse Gamer Razer,Acessórios,1,250
+2,04/01/2023,Notebook Dell Inspiron,Notebooks,1,3500
+3,04/01/2023,"Monitor Samsung 27""",Monitores,1,1200
+3,04/01/2023,"Monitor Samsung 27""",Monitores,,1200
+4,05/01/2023,Mousepad Gamer HyperX,Acessórios,1,80
+4,05/01/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+4,05/01/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+4,05/01/2023,SSD Kingston 1TB,Armazenamento,,500
+4,05/01/2023,Placa de Vídeo NVIDIA RTX 3060,Componentes,1,2800
+5,10/01/2023,SSD Samsung 870 EVO 2TB,Armazenamento,3,1200
+6,13/01/2023,Mouse Logitech MX Master,Acessórios,5,300
+6,13/01/2023,HD Externo Seagate 2TB,Armazenamento,1,600
+7,18/01/2023,Cabo HDMI 4K 2m,Acessórios,1,50
+7,18/01/2023,Webcam Logitech C920,Acessórios,1,500
+7,18/01/2023,,Monitores,1,1200
+7,18/01/2023,Placa de Vídeo RTX 4090,Componentes,1,1500
+8,20/01/2023,"Monitor Philips 24""",Monitores,1,1000
+8,20/01/2023,Notebook Dell Inspiron,Notebooks,1,3500
+9,25/01/2023,Notebook HP Pavilion,Notebooks,2,4200
+10,26/01/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+10,26/01/2023,Teclado Bluetooth Logitech,Acessórios,1,
+11,27/01/2023,HD Interno Toshiba 1TB,,2,350
+12,31/01/2023,HD Interno Toshiba 1TB,Armazenamento,1,350
+12,31/01/2023,Teclado Gamer Corsair,Acessórios,1,350
+12,31/01/2023,Fonte EVGA 750W,Componentes,1,650
+12,31/01/2023,Fonte EVGA 750W,Componentes,1,650
+13,05/02/2023,Mouse Gamer HyperX,Acessórios,1,180
+14,06/02/2023,HD Externo WD 4TB,Armazenamento,1,800
+15,08/02/2023,Teclado Gamer Redragon,Acessórios,1,200
+16,15/02/2023,Cabo HDMI 4K 2m,Acessórios,2,50
+16,15/02/2023,Mouse Gamer HyperX,Acessórios,1,180
+16,15/02/2023,Placa-Mãe MSI PRO,Componentes,1,850
+17,15/02/2023,Teclado Gamer Redragon,,1,200
+17,15/02/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+17,15/02/2023,Cadeira Gamer DXRacer Elite,Cadeiras,1,1700
+18,20/02/2023,Mouse Gamer Zowie EC2,Acessórios,,300
+18,20/02/2023,Notebook LG Gram,Notebooks,1,5000
+19,21/02/2023,Gabinete Cooler Master,Componentes,1,400
+20,21/02/2023,Gabinete NZXT H510,Componentes,1,550
+20,21/02/2023,Monitor LG UltraWide,Monitores,1,1600
+21,22/02/2023,Gabinete NZXT H510,Componentes,1,550
+22,24/02/2023,Teclado RGB SteelSeries,Acessórios,1,350
+23,25/02/2023,HD Interno WD Blue 4TB,,1,800
+24,01/03/2023,SSD Kingston NVMe 500GB,Armazenamento,1,400
+24,01/03/2023,SSD Kingston NVMe 500GB,Armazenamento,1,400
+25,07/03/2023,Cabo HDMI 4K 2m,Acessórios,1,50
+25,07/03/2023,Placa-Mãe ASUS TUF Gaming,Componentes,1,1200
+25,07/03/2023,"Monitor Samsung 4K UHD 28""",Monitores,1,2500
+26,15/03/2023,HD Interno Toshiba 1TB,Armazenamento,4,350
+27,16/03/2023,Notebook Acer Aspire,Notebooks,1,3000
+28,22/03/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+29,24/03/2023,Gabinete NZXT H510,Componentes,1,550
+29,24/03/2023,Gabinete NZXT H510,Componentes,1,550
+30,02/04/2023,Notebook Dell Inspiron,Notebooks,1,3500
+31,07/04/2023,Fone de Ouvido Corsair Virtuoso,Acessórios,2,900
+32,07/04/2023,Cabo HDMI 4K 2m,Acessórios,10,50
+32,07/04/2023,Fone de Ouvido Corsair Virtuoso,Acessórios,1,900
+33,13/04/2023,Cabo HDMI 4K 2m,Acessórios,1,50
+33,13/04/2023,Mouse Gamer HyperX,Acessórios,3,180
+34,14/04/2023,Cabo HDMI 4K 2m,Acessórios,1,50
+35,20/04/2023,Cabo HDMI 4K 2m,Acessórios,2,50
+36,10/05/2023,SSD Samsung Evo 500GB,Armazenamento,1,450
+37,16/05/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+37,16/05/2023,Placa de Vídeo RTX 4090,Componentes,1,1500
+37,16/05/2023,Monitor Samsung Odyssey,Monitores,1,3500
+37,16/05/2023,Monitor Samsung Odyssey,Monitores,1,3500
+38,18/05/2023,Gabinete NZXT H510,Componentes,1,550
+39,25/05/2023,Fone de Ouvido Sony WH-1000XM4,Acessórios,1,1500
+39,25/05/2023,Placa de Vídeo RTX 4090,Componentes,1,1500
+39,25/05/2023,Fonte EVGA 750W,,1,
+40,29/05/2023,Notebook HP Pavilion,Notebooks,1,4200
+41,07/06/2023,SSD WD Blue 250GB,,1,300
+41,07/06/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+42,08/06/2023,Teclado Bluetooth Keychron K3,Acessórios,1,500
+43,11/07/2023,Cabo HDMI 4K 2m,Acessórios,3,50
+43,11/07/2023,Notebook ASUS Vivobook,Notebooks,1,3800
+44,11/07/2023,Cabo HDMI 4K 2m,Acessórios,2,50
+44,11/07/2023,Cabo HDMI 4K 2m,Acessórios,2,50
+44,11/07/2023,Fonte Modular EVGA 850W,Componentes,1,850
+45,11/07/2023,"Monitor Dell 32""",Monitores,1,2500
+46,11/07/2023,Mouse Gamer HyperX,Acessórios,1,180
+47,11/07/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+47,12/07/2023,SSD WD Blue 250GB,,1,300
+48,13/07/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+49,21/07/2023,Notebook Samsung Book,Notebooks,5,2800
+50,23/08/2023,,Cadeiras,1,1400
+50,23/08/2023,Monitor AOC Gamer,Monitores,1,2200
+51,30/08/2023,Monitor Samsung Odyssey,Monitores,1,3500
+52,14/09/2023,Mouse Sem Fio Logitech M590,Acessórios,1,180
+53,16/09/2023,Memória RAM Corsair 64GB,Componentes,1,2500
+53,16/09/2023,Notebook Dell XPS,Notebooks,1,7200
+54,21/09/2023,Cabo HDMI 4K 2m,Acessórios,3,50
+54,21/09/2023,Cabo HDMI 4K 2m,Acessórios,3,50
+54,21/09/2023,Notebook ASUS TUF Gaming,Notebooks,1,4500
+55,13/10/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+56,17/10/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+56,17/10/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+57,20/10/2023,SSD Kingston NVMe 500GB,Armazenamento,1,400
+58,27/10/2023,SSD WD Blue 250GB,,1,300
+59,06/11/2023,Fone de Ouvido Corsair Virtuoso,,1,900
+60,07/11/2023,"Monitor Samsung 27""",Monitores,1,1200
+60,07/11/2023,Placa de Vídeo RTX 4090,Componentes,1,1500
+61,10/11/2023,Cabo HDMI 4K 2m,Acessórios,1,50
+61,10/11/2023,Fone de Ouvido Corsair Virtuoso,Acessórios,1,900
+61,10/11/2023,Cadeira Gamer Redragon,Cadeiras,1,1450
+63,10/11/2023,Gabinete NZXT H510,Componentes,1,550
+63,10/11/2023,Gabinete NZXT H510,Componentes,1,550
+63,10/11/2023,Memória RAM Corsair 32GB,Componentes,1,800
+63,10/11/2023,Fonte Modular EVGA 850W,Componentes,1,850
+63,10/11/2023,"Monitor Dell 32""",Monitores,2,2500
+63,10/11/2023,Placa de Vídeo AMD RX 6700 XT,Componentes,1,3200
+63,10/11/2023,Placa de Vídeo AMD RX 6700 XT,Componentes,1,3200
+64,10/11/2023,Memória RAM Corsair 32GB,Componentes,1,800
+64,10/11/2023,Memória RAM Corsair 32GB,Componentes,1,800
+64,10/11/2023,"Monitor Dell 32""",Monitores,1,2500
+65,10/11/2023,SSD Kingston 1TB,Armazenamento,1,500
+65,10/11/2023,Memória RAM Corsair 32GB,Componentes,2,800
+65,10/11/2023,Placa de Vídeo RTX 4090,Componentes,1,1500
+66,10/11/2023,Notebook Dell XPS,Notebooks,1,7200
+67,10/11/2023,Mouse Gamer Corsair,Acessórios,1,150
+67,10/11/2023,Teclado Mecânico Logitech,Acessórios,1,450
+67,10/11/2023,"Monitor Samsung 27""",Monitores,5,1200
+68,10/11/2023,Mouse Gamer HyperX,Acessórios,10,180
+69,10/11/2023,Mouse Gamer HyperX,Acessórios,1,180
+70,10/11/2023,Mouse Gamer HyperX,Acessórios,1,180
+71,10/11/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+71,10/11/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+72,10/11/2023,Notebook Dell Inspiron,Notebooks,1,3500
+73,10/11/2023,Notebook Dell Inspiron,Notebooks,1,3500
+74,10/11/2023,Notebook Lenovo ThinkPad,Notebooks,1,4000
+75,10/11/2023,SSD Kingston NVMe 500GB,Armazenamento,2,400
+76,10/11/2023,SSD Kingston NVMe 500GB,Armazenamento,1,400
+77,10/11/2023,SSD Samsung 870 EVO 2TB,Armazenamento,1,1200
+78,10/11/2023,Teclado Bluetooth Keychron K3,Acessórios,1,500
+79,10/11/2023,Webcam Razer Kiyo,Acessórios,1,700
+80,10/11/2023,,Acessórios,1,450
+81,16/11/2023,Fone de Ouvido JBL,Acessórios,1,400
+81,16/11/2023,Cadeira Gamer DXRacer,Cadeiras,1,1500
+82,16/11/2023,Notebook Dell Inspiron,Notebooks,1,3500
+83,17/11/2023,SSD Kingston NVMe 500GB,Armazenamento,1,400
+84,21/11/2023,"Monitor Dell 32""",Monitores,2,2500
+84,27/11/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+84,27/11/2023,Mouse Gamer SteelSeries,Acessórios,1,200
+84,27/11/2023,Fonte Modular EVGA 850W,Componentes,1,850
+85,28/11/2023,Fone de Ouvido JBL,Acessórios,2,400
+86,28/11/2023,Mouse Gamer HyperX,Acessórios,1,180
+87,29/11/2023,Cadeira Gamer DXRacer Elite,Cadeiras,1,1700
+88,30/11/2023,Cadeira Gamer ThunderX3,Cadeiras,1,1400
+89,04/12/2023,Teclado RGB Cooler Master,,1,300
+90,07/12/2023,Webcam Razer Kiyo,Acessórios,1,700
+91,08/12/2023,SSD WD Blue 250GB,,2,300
+92,12/12/2023,SSD WD Blue 250GB,,1,300
+92,12/12/2023,SSD WD Blue 250GB,,1,300
+93,14/12/2023,SSD Crucial 2TB,Armazenamento,2,
+94,14/12/2023,Webcam Razer Kiyo,Acessórios,1,700
+95,15/12/2023,SSD Kingston NVMe 500GB,Armazenamento,1,400
+95,15/12/2023,SSD Kingston NVMe 500GB,Armazenamento,1,400
+96,20/12/2023,,Acessórios,1,450
+97,28/12/2023,Teclado Mecânico Logitech,Acessórios,1,450
