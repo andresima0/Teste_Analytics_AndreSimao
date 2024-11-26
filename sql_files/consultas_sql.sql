@@ -16,7 +16,7 @@ MODIFY COLUMN Total_Venda DECIMAL(10, 2);
 UPDATE vendas SET Data_Venda = STR_TO_DATE(Data_Venda, '%d/%m/%Y');
 ALTER TABLE vendas MODIFY COLUMN Data_Venda DATE;
 
--- Cconferindo se formato de dados foram convertidos corretamente
+-- Conferindo se formato de dados foram convertidos corretamente
 DESCRIBE vendas;
 SELECT * FROM vendas;
 
@@ -30,7 +30,6 @@ ORDER BY Total_Vendas DESC;
 
 -- lista dos produtos vendidos em junho de 2023
 SELECT * FROM vendas WHERE Data_Venda BETWEEN '2023-06-01' AND '2023-06-30';
-
 
 -- produtos que venderam menos no mês de junho de 2023
 SELECT Produto,Categoria, SUM(Quantidade) AS Total_Quantidade
