@@ -6,6 +6,13 @@ Executanto processos de análise de dados de simulação de vendas
 
 Esse repositório tem por objetivo apresentar processos de análise de dados de um dataset fictício de uma loja de vendas de produtos de informática, para poder compreender melhor sobre limpeza, exploração, análise e criação de insights valiosos para negócios.
 
+As ferramentas e plataformas utilizadas neste processo foram:
+
+- <img src="https://img.icons8.com/color/48/000000/google-sheets.png" alt="Google Sheets" width="20px"> **Google Sheets;**
+- <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" width="20px"> **Oracle MySQL;**
+- <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" alt="Google Colab" width="20px"> **Google Colab;**
+- <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="20px"> **Microsoft Power BI.**
+
 A base inicial de dados consiste de um dataset chamado dados_vendas.csv, que por sua vez possui 160 registros e as seguiontes colunas:
 * ID: referente ao número de indentificação da compra, podendo se repetir de acordo com vários produtos associados a mesma compra;
 * Data: referente ao momento de realização da compra, sob o formato dia-mês-ano (DD-MM-YYYY);
@@ -13,6 +20,9 @@ A base inicial de dados consiste de um dataset chamado dados_vendas.csv, que por
 * Categoria: referente ao tipo do produto, o qual pode pertencer somente a uma das seis categorias disponíveis (Acessórios, Armazenamento, Cadeiras, Componentes, Monitores ou Notebooks);
 *Quantidade: referente a quantidade de produtos de um mesmo tipo, atrelados a uma mesma compra;
 * Preco: valor do produto, em reais (R$).
+
+A tabela abaixo apresenta uma visualização prévia dos dados desse arquivo CSV:
+![dados_vendas](https://github.com/user-attachments/assets/635e6958-b7a6-484c-93c4-64dc93d35bb9)
 
 O arquivo dados_vendas.csv pode ser visualizado em detalhes em [link1](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/dados_vendas.csv).
 
