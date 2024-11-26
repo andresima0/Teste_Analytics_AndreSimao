@@ -10,8 +10,8 @@ As ferramentas e plataformas utilizadas neste processo foram:
 
 * <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" alt="Google Colab" width="20px"> **Google Colab;**
 * <img src="https://img.icons8.com/color/48/000000/google-sheets.png" alt="Google Sheets" width="20px"> **Google Sheets;**
-* <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="20px"> **Microsoft Power BI.**
-* <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" width="20px"> **Oracle MySQL;**
+* <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="20px"> **Microsoft Power BI;**
+* <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" width="20px"> **Oracle MySQL.**
 
 A base inicial de dados consiste de um dataset chamado dados_vendas.csv, que por sua vez possui 160 registros e as seguiontes colunas:
 * ID: referente ao número de indentificação da compra, podendo se repetir de acordo com vários produtos associados a mesma compra;
