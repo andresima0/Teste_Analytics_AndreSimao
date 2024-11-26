@@ -18,7 +18,8 @@ O arquivo dados_vendas.csv pode ser visualizado em detalhes em [link1](https://g
 
 ## Parte 1: Programação em Python
 
-### 1 Limpeza e Análise de Dados de Vendas
+### 1.1 Limpeza e Análise de Dados de Vendas
+
 Através da plataforma Google Colab, foi desenvolvido um Notebook em Python para fazer a limpeza e análise inicial dos dados. 
 A partir da importação do arquivo dados_vendas.csv e da execução de prompts de comando em Python, pôde-se observar:
 * 21 Registros incompletos;
@@ -44,7 +45,7 @@ Produto mais vendido:
 
 Os detalhes desses processos no Notebook podem ser visualizados em [Link4](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/1_limpeza_dados_vendas.ipynb).
 
-### 2 Análise Exploratória de Dados de Vendas
+### 1.2 Análise Exploratória de Dados de Vendas
 
 Os arquivos data_clean.csv e agrupado.csv foram exportados e convertidos em um único arquivo chamado vendas.xlsx (disponível em [Link5](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/vendas.xlsx)), para ser feita a análise exploratória e visualização dos dados através da plataforma Power BI ([Link6](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/2_exploracao_dados_vendas.pbix)).
 
