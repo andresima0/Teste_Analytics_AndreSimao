@@ -13,18 +13,17 @@ As ferramentas e plataformas utilizadas neste processo foram:
 * <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="20px"> **Microsoft Power BI;**
 * <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" width="20px"> **Oracle MySQL.**
 
-A base inicial de dados consiste de um dataset chamado dados_vendas.csv, que por sua vez possui 160 registros e as seguintes colunas:
+A base inicial de dados consiste de um dataset chamado [dados_vendas.csv](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/dados_vendas.csv), que por sua vez possui 160 registros e as seguintes colunas:
 * ID: referente ao número de indentificação da compra, podendo se repetir de acordo com vários produtos associados a mesma compra;
 * Data: referente ao momento de realização da compra, sob o formato dia-mês-ano (DD-MM-YYYY);
 * Produto: referente ao produto de informática oferecido pela loja, sendo 56 produtos;
 * Categoria: referente ao tipo do produto, o qual pode pertencer somente a uma das seis categorias disponíveis (Acessórios, Armazenamento, Cadeiras, Componentes, Monitores ou Notebooks);
-*Quantidade: referente a quantidade de produtos de um mesmo tipo, atrelados a uma mesma compra;
+* Quantidade: referente a quantidade de produtos de um mesmo tipo, atrelados a uma mesma compra;
 * Preco: valor do produto, em reais (R$).
 
-A tabela abaixo apresenta uma visualização prévia dos dados desse arquivo CSV:
-![dados_vendas](https://github.com/user-attachments/assets/635e6958-b7a6-484c-93c4-64dc93d35bb9)
+A tabela abaixo apresenta uma visualização préviada da estrutura e dos dados desse arquivo CSV:
 
-O arquivo dados_vendas.csv pode ser visualizado em detalhes em [link1](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/dados_vendas.csv).
+![dados_vendas](https://github.com/user-attachments/assets/635e6958-b7a6-484c-93c4-64dc93d35bb9)
 
 ## Parte 1: Programação em Python
 
@@ -36,9 +35,9 @@ A partir da importação do arquivo dados_vendas.csv e da execução de prompts 
 * 14 Registros duplicados;
 * 0 registros de tipagem incorreta;
 
-As inconsistências foram corrigidas e um novo arquivo chamado data_clean.csv foi gerado, contendo 125 registros corretos para manipulação. O arquivo data_clean.csv pode ser visualizado em [Link2](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/data_clean.csv).
+As inconsistências foram corrigidas e um novo arquivo chamado [data_clean.csv](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/data_clean.csv) foi gerado, contendo 125 registros corretos para manipulação.
 
-A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto (arquivo agrupado.csv, disponível em [Link3](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/agrupado.csv)), e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
+A partir do arquivo data_clean.csv, foi possível calcular o total de vendas por produto (arquivo [agrupado.csv](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/csv_files/agrupado.csv)), e encontrar qual o produto teve maior valor de vendas e qual teve o maior número de vendas totais.
 
 Produto com o maior valor de total de vendas
 
@@ -53,13 +52,13 @@ Produto mais vendido:
 |------------------|------------|
 | Cabo HDMI 4K 2m  | 27         |
 
-Os detalhes desses processos no Notebook podem ser visualizados em [Link4](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/1_limpeza_dados_vendas.ipynb).
+O Notebook em Python [1_limpeza_dados_vendas.ipynb](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/1_limpeza_dados_vendas.ipynb) possui todos os detalhes dessa etapa.
 
 ### 1.2 Análise Exploratória de Dados de Vendas
 
-Os arquivos data_clean.csv e agrupado.csv foram exportados e convertidos em um único arquivo chamado vendas.xlsx (disponível em [Link5](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/vendas.xlsx)), para ser feita a análise exploratória e visualização dos dados através da plataforma Power BI ([Link6](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/2_exploracao_dados_vendas.pbix)).
+Os arquivos data_clean.csv e agrupado.csv foram exportados e convertidos em um único arquivo chamado [vendas.xlsx](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/vendas.xlsx), para ser feita a análise exploratória e visualização dos dados através da plataforma Power BI.
 
-Foi criado uma Visualização Power Bi chamada 2_exploracao_dados_vendas, que por usa vez contérm um dashboard interativo, formado por:
+Foi criado uma Visualização Power Bi chamada [2_exploracao_dados_vendas](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/microsoft_files/2_exploracao_dados_vendas.pbix), que por usa vez contém um dashboard interativo, formado por:
 * Grafico de linhas, com:
   * Linha que faz a relação do valor das vendas (em milhares de R$) em cada mês dentro do período de 1 ano;
   * Linha que faz a relação do percentual das vendas (em %) em cada mês dentro do período de 1 ano;
@@ -79,7 +78,7 @@ A partir da análise das informações do dashboard, pôde-se concluir que:
 
 ## Parte 2: SQL
 
-Foi criado um banco de dados chamado vendas_db utilizando a plataforma My SQL, e a partir da importação de data_clean.csv no ambiente My SQL, foram realizadas ajustes nas colunas para realização de consultas sem complicações, como:
+Foi criado um banco de dados chamado vendas_db utilizando na plataforma My SQL, e a partir da importação de data_clean.csv no ambiente My SQL, foram realizadas ajustes nas colunas para realização de consultas sem complicações, como:
 * conversão das colunas quelidam com valores do tipo moeda para DECIMAL(10, 2);
 * conversão da coluna comas datas das vendas para o tipo DATE, no fomramto ano-mês-dia (YYY-MM-DD);
 
@@ -102,4 +101,4 @@ WHERE MONTH(Data_Venda) = 06 AND YEAR(Data_Venda) = 2023
 GROUP BY Produto, Categoria
 ORDER BY Total_Quantidade ASC;
 ```
-O [Link7](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/sql_files/consultas_sql.sql) possui o arquivo consultas_sql.sql com mais detalhes sobre o processo.
+O arquivo [consultas_sql.sql](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/sql_files/consultas_sql.sql) possui mais detalhes sobre o processo.
