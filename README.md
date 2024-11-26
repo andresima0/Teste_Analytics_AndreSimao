@@ -108,7 +108,7 @@ O arquivo [consultas_sql.sql](https://github.com/andresima0/Teste_Analytics_Andr
 A análise de dados das vendas da loja fictícia revelou importantes insights, partindo de um dataset limpo e bem explorado. O processo foi realizado utilizando Python (Google Colab), Google Sheets, Power BI e MySQL.
 
 ### Principais Insights
-* Limpeza de Dados: A base inicial possuía 21 registros incompletos e 14 duplicados, resultando em 125 registros válidos após a limpeza;
+* Limpeza de Dados: A base inicial possuía 35 registros corrompidos, resultando em 125 registros válidos após a limpeza;
 * Produtos com Maior Valor de Vendas: O notebook Dell Inspiron gerou maior valor total de vendas (R$21.000,00), representando alta lucratividade;
 * Produtos Mais Vendidos :O cabo HDMI 4K 2m liderou em número de vendas, com 27 unidades, destaque como item de alta saída, embora com baixa margem de lucro;
 * Tendências Sazonais: Novembro (35% das vendas) e janeiro (17%) foram os meses com maiores vendas, indicando impacto de promoções;
