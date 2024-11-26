@@ -68,4 +68,26 @@ A partir da análise das informações do dashboard, pôde-se concluir que:
 
 ## Parte 2: SQL
 
-## Parte 3: Interpretação dos Resultados
+Foi criado um banco de dados chamado vendas_db utilizando a plataforma My SQL, e a partir da importação de data_clean.csv no ambiente My SQL, foram realizadas ajustes nas colunas para realização de consultas sem complicações, como:
+* conversão das colunas quelidam com valores do tipo moeda para DECIMAL(10, 2);
+* conversão da coluna comas datas das vendas para o tipo DATE, no fomramto ano-mês-dia (YYY-MM-DD);
+
+Após ajustes necessários, foram realizadas as consultas para:
+  
+### 2.1 lista com nome do produto, categoria e a soma total de vendas de cada produto, ordenada pelo total de vendas em ordem decrescente
+
+```sql
+SELECT Produto, Categoria, SUM(Quantidade * Preco) AS Total_Vendas FROM vendas
+GROUP BY Produto, Categoria
+ORDER BY Total_Vendas DESC;
+````
+
+### 2.2 produtos que venderam menos no mês de junho de 2023
+
+```sql
+SELECT Produto,Categoria, SUM(Quantidade) AS Total_Quantidade
+FROM vendas
+WHERE MONTH(Data_Venda) = 06 AND YEAR(Data_Venda) = 2023
+GROUP BY Produto, Categoria
+ORDER BY Total_Quantidade ASC;
+```
