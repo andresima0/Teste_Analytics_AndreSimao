@@ -91,3 +91,4 @@ WHERE MONTH(Data_Venda) = 06 AND YEAR(Data_Venda) = 2023
 GROUP BY Produto, Categoria
 ORDER BY Total_Quantidade ASC;
 ```
+O [Link7](https://github.com/andresima0/Teste_Analytics_AndreSimao/blob/main/sql_files/consultas_sql.sql) possui o arquivo consultas_sql.sql com mais detalhes sobre o processo.
