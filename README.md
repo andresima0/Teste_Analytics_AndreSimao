@@ -13,7 +13,7 @@ As ferramentas e plataformas utilizadas neste processo foram:
 * <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" width="20px"> **Microsoft Power BI;**
 * <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" width="20px"> **Oracle MySQL.**
 
-A base inicial de dados consiste de um dataset chamado dados_vendas.csv, que por sua vez possui 160 registros e as seguiontes colunas:
+A base inicial de dados consiste de um dataset chamado dados_vendas.csv, que por sua vez possui 160 registros e as seguintes colunas:
 * ID: referente ao número de indentificação da compra, podendo se repetir de acordo com vários produtos associados a mesma compra;
 * Data: referente ao momento de realização da compra, sob o formato dia-mês-ano (DD-MM-YYYY);
 * Produto: referente ao produto de informática oferecido pela loja, sendo 56 produtos;
